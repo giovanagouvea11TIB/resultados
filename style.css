@@ -148,7 +148,7 @@ body{
 }
 
 
-@media ( min-width: 736px) {
+@media (min-width: 736px) {
     body {
         min-height: 100svh;
         display: flex;
@@ -159,7 +159,7 @@ body{
 
     main {
         display: grid;
-        grid-template-columns: ifr ifr;
+        grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--white);
         border-radius: 3.2rem;
@@ -216,8 +216,7 @@ body{
     }
 
     .resumo button{
-        margin-top: 2.4rem;
-       
+        margin-top: 2.4rem; 
         
     }
 
@@ -225,26 +224,6 @@ body{
         background: var(--resultado-bg);
         cursor:pointer;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
